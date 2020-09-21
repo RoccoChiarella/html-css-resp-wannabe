@@ -71,3 +71,28 @@ img {
 .clear {
   clear: both;
 }
+
+
+@media screen and (max-width: 420px) {
+    .row h1{
+        padding-right: 60%;
+    }
+    #lezioni .row>.left,
+    #lezioni .row>.right {
+      padding: 2% 0;
+      float: none;
+      width: 38%;
+    }
+    #steps .row>.left,
+    #steps .row>.central,
+    #steps .row>.right {
+      padding: 2% 0;
+      float: none;
+      width: 38%;
+    }
+    #why .row>.first,
+    #why .row>.second,
+    #why .row>.third {
+      width: 38%;
+    }
+}
